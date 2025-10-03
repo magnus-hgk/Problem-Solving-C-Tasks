@@ -37,7 +37,7 @@ int main(void)
 
 
     // Check if coordinate is inside, outside or on point
-    if (length <= DELTA + radius && length >= radius - DELTA)
+    if (radius - DELTA <= length  && length <= radius + DELTA)
     {
         printf("The coordinate (%.1f, %.1f) lies on the circle perimeter\n", x, y);
     } else if (length + DELTA > radius)
