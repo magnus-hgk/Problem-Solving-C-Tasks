@@ -29,7 +29,7 @@ int main(void)
     scanf("\n %d", &k);
 
     if (m == n) {
-        goto end;
+        return 0;
     }
 
     if (m > 0 && n > 0 && k > 0) 
@@ -51,7 +51,6 @@ int main(void)
         }
     printf("= %d\n", sum);
     } else {
-        end:
         printf("Some, none or some of none of the numbers inputtet are equal to or less than 0 or each other\n");
     }
 
