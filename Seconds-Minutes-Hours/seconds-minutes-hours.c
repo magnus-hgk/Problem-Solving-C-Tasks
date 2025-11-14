@@ -31,7 +31,7 @@ int main(void)
     seconds %= SECONDS_PER_MINUTE;
     
 
-    printf("%d number of seconds are: \n%d weeks, %d days, %d hours, %d minutes and %d seconds\n", input_seconds, weeks, days, hours, minutes, seconds);
+    printf("%d seconds is: \n%d weeks, %d days, %d hours, %d minutes and %d seconds\n", input_seconds, weeks, days, hours, minutes, seconds);
 
 
 }

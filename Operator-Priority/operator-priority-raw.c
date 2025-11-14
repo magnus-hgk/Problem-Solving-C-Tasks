@@ -18,8 +18,7 @@ int main(void){
   res3 = a + b < ! c + c;
   res4 = a - x || b * c && b / a;
 
-  printf("res1 = %d, res2 = %d, res3 = %d,  res4 = %d \n", 
-	 res1, res2, res3, res4);
+  printf("res1 = %d, res2 = %d, res3 = %d,  res4 = %d \n", res1, res2, res3, res4);
 
   return 0;
 }
